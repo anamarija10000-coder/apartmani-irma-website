@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Start",
+    "apartments": "Apartments",
+    "about": "Über uns",
+    "rent": "Rent",
+    "contact": "Kontakt",
+    "book": "Jetzt buchen"
+  },
+
+  "hero": {
+    "title": "Apartments Irma",
+    "subtitle": "Ihr perfekter Urlaub in Baška Voda"
+  }
+}
