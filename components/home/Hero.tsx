@@ -11,22 +11,24 @@ export default function Hero() {
   return (
     <section
       className="
-        relative
-        isolate
-        overflow-hidden
-        bg-cover
-        bg-center
-        pt-28
-        pb-32
-        lg:flex
-        lg:min-h-screen
-        lg:items-center
-        lg:pt-0
-        lg:pb-32
-      "
+  relative
+  isolate
+  overflow-hidden
+  bg-cover
+  bg-center
+  pt-24
+  pb-56
+  min-h-[620px]
+  lg:flex
+  lg:min-h-screen
+  lg:items-center
+  lg:pt-0
+  lg:pb-32
+"
       style={{
-        backgroundImage: "url('/images/hero.jpg')",
-      }}
+  backgroundImage: "url('/images/hero.jpg')",
+  backgroundPosition: "center top",
+}}
     >
 
       <div
@@ -76,12 +78,12 @@ export default function Hero() {
           <h1
             className="
               font-heading
-              text-5xl
+              text-4xl
               font-semibold
-              leading-[1]
+              leading-none
               !text-white
               drop-shadow-[0_4px_20px_rgba(0,0,0,0.8)]
-              sm:text-6xl
+              sm:text-5xl
               lg:text-8xl
             "
           >
@@ -95,17 +97,18 @@ export default function Hero() {
 
           <p
             className="
-              mt-5
-              max-w-xl
-              text-base
-              leading-7
-              !text-slate-100
-              drop-shadow-lg
-              sm:text-lg
-              lg:mt-8
-              lg:text-xl
-              lg:leading-9
-            "
+  mt-4
+  max-w-md
+  text-base
+  leading-8
+  !text-slate-100
+  drop-shadow-lg
+  sm:text-lg
+  lg:mt-8
+  lg:max-w-xl
+  lg:text-xl
+  lg:leading-9
+"
           >
             {t("description")}
           </p>
@@ -116,21 +119,24 @@ export default function Hero() {
             <Link
               href="#apartmani"
               className="
-                inline-flex
-                rounded-full
-                bg-sky-700
-                px-8
-                py-3
-                text-base
-                font-semibold
-                text-white
-                shadow-xl
-                transition
-                hover:bg-sky-800
-                lg:px-10
-                lg:py-4
-                lg:text-lg
-              "
+inline-flex
+w-full
+justify-center
+rounded-full
+bg-sky-700
+px-8
+py-3
+text-base
+font-semibold
+text-white
+shadow-xl
+transition
+hover:bg-sky-800
+sm:w-auto
+lg:px-10
+lg:py-4
+lg:text-lg
+"
             >
               {t("button")}
             </Link>
@@ -149,7 +155,8 @@ export default function Hero() {
             w-full
             max-w-6xl
             -translate-x-1/2
-            translate-y-1/2
+            translate-y-[35%]
+lg:translate-y-1/2
             px-5
             lg:px-6
           "
@@ -182,17 +189,17 @@ export default function Hero() {
 
               <div
                 key={text}
-                className="
-                  rounded-xl
-                  bg-white/10
-                  p-4
-                  text-center
-                  lg:rounded-2xl
-                  lg:p-5
-                "
+               className="
+  rounded-xl
+  bg-white/10
+  p-3
+  text-center
+  lg:rounded-2xl
+  lg:p-5
+"
               >
 
-                <div className="text-2xl lg:text-3xl">
+                <div className="text-xl lg:text-3xl">
                   {icon}
                 </div>
 
@@ -200,7 +207,8 @@ export default function Hero() {
                 <p
                   className="
                     mt-2
-                    text-[10px]
+                    text-[11px]
+leading-4
                     uppercase
                     tracking-[0.18em]
                     !text-sky-100

@@ -33,11 +33,11 @@ const locale = ["hr", "en", "de"].includes(pathLocale)
     <section
       id="apartmani"
       className="
-        scroll-mt-20
-        bg-stone-50
-        py-16
-        lg:py-32
-      "
+  scroll-mt-20
+  bg-stone-50
+  py-12
+  lg:py-32
+"
     >
 
       <div className="
@@ -72,7 +72,7 @@ const locale = ["hr", "en", "de"].includes(pathLocale)
             className="
               mt-3
               font-heading
-              text-4xl
+              text-3xl
               text-slate-900
               sm:text-5xl
               lg:mt-4
@@ -88,13 +88,13 @@ const locale = ["hr", "en", "de"].includes(pathLocale)
               mx-auto
               mt-4
               max-w-2xl
-              text-base
-              leading-7
+              text-sm
+leading-6
+sm:text-base
+lg:text-xl
+lg:leading-9
               text-slate-500
-              sm:text-lg
               lg:mt-6
-              lg:text-xl
-              lg:leading-9
             "
           >
             {t("description")}
@@ -107,13 +107,16 @@ const locale = ["hr", "en", "de"].includes(pathLocale)
 
 
         <div
-          className="
-            grid
-            gap-6
-            md:grid-cols-2
-            lg:gap-10
-            xl:grid-cols-4
-          "
+        className="
+  mx-auto
+  grid
+  max-w-md
+  gap-6
+  md:max-w-none
+  md:grid-cols-2
+  lg:gap-10
+  xl:grid-cols-4
+"
         >
 
           {apartments.map((apartment) => (
@@ -138,28 +141,29 @@ const locale = ["hr", "en", "de"].includes(pathLocale)
               <div
                 className="
                   relative
-                  h-64
+                  h-56
                   overflow-hidden
                   lg:h-80
                 "
               >
 
                 <Image
-                  src={apartment.image}
-                  alt={t(`names.${apartment.id}`)}
-                  fill
-                  sizes="
-                    (max-width:768px) 100vw,
-                    (max-width:1280px) 50vw,
-                    25vw
-                  "
-                  className="
-                    object-cover
-                    transition
-                    duration-700
-                    group-hover:scale-110
-                  "
-                />
+  src={apartment.image}
+  alt={t(`names.${apartment.id}`)}
+  fill
+  sizes="
+    (max-width:768px) 100vw,
+    (max-width:1280px) 50vw,
+    25vw
+  "
+  className="
+    object-cover
+    object-center
+    transition
+    duration-700
+    group-hover:scale-110
+  "
+/>
 
 
                 <div

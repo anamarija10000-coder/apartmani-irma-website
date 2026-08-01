@@ -26,34 +26,40 @@ export default async function Home() {
       {/* About */}
 
       <section
-        id="onama"
-        className="
-          bg-white
-          py-32
-        "
-      >
+  id="onama"
+  className="
+    bg-white
+    py-20
+    lg:py-32
+  "
+>
 
         <div
           className="
-            mx-auto
-            grid
-            max-w-7xl
-            gap-16
-            px-6
-            lg:grid-cols-2
-            lg:items-center
-          "
+  mx-auto
+  grid
+  max-w-7xl
+  gap-10
+  px-5
+  lg:gap-16
+  lg:px-6
+  lg:grid-cols-2
+  lg:items-center
+"
         >
 
 
           <div
-            className="
-              relative
-              h-[520px]
-              overflow-hidden
-              rounded-[40px]
-              shadow-xl
-            "
+           className="
+  relative
+  h-[300px]
+  overflow-hidden
+  rounded-[32px]
+  shadow-xl
+  sm:h-[420px]
+  lg:h-[520px]
+  lg:rounded-[40px]
+"
           >
 
             <Image
@@ -61,7 +67,11 @@ export default async function Home() {
               alt="Apartments Irma Baška Voda"
               fill
               sizes="(max-width:1024px) 100vw, 50vw"
-              className="object-cover"
+              className="
+object-cover
+object-center
+lg:object-cover
+"
             />
 
           </div>
@@ -90,7 +100,8 @@ export default async function Home() {
               className="
                 mt-4
                 font-heading
-                text-5xl
+                text-4xl
+sm:text-5xl
                 leading-tight
                 text-slate-900
               "
@@ -102,9 +113,12 @@ export default async function Home() {
 
             <p
               className="
-                mt-8
-                text-lg
-                leading-9
+                mt-6
+text-base
+leading-8
+lg:mt-8
+lg:text-lg
+lg:leading-9
                 text-slate-600
               "
             >
@@ -115,11 +129,13 @@ export default async function Home() {
 
             <p
               className="
-                mt-6
-                text-lg
-                leading-9
-                text-slate-600
-              "
+  mt-6
+  text-base
+  leading-8
+  text-slate-600
+  lg:text-lg
+  lg:leading-9
+"
             >
               {t("aboutText2")}
             </p>
@@ -130,16 +146,18 @@ export default async function Home() {
 
             <div
               className="
-                mt-10
-                grid
-                grid-cols-2
-                gap-4
+               mt-8
+grid
+grid-cols-2
+gap-3
+lg:mt-10
+lg:gap-4
               "
             >
 
 
-              <div className="rounded-2xl bg-sky-50 p-5">
-                <p className="text-2xl">🌊</p>
+              <div className="rounded-2xl bg-sky-50 p-4 lg:p-5">
+              <p className="text-xl lg:text-2xl">🌊</p>
 
                 <p className="mt-2 font-semibold text-slate-800">
                   {t("seaView")}
@@ -148,8 +166,8 @@ export default async function Home() {
 
 
 
-              <div className="rounded-2xl bg-sky-50 p-5">
-                <p className="text-2xl">🏖️</p>
+              <div className="rounded-2xl bg-sky-50 p-4 lg:p-5">
+               <p className="text-xl lg:text-2xl">🏖️</p>
 
                 <p className="mt-2 font-semibold text-slate-800">
                   {t("beach")}
@@ -159,8 +177,8 @@ export default async function Home() {
 
 
 
-              <div className="rounded-2xl bg-sky-50 p-5">
-                <p className="text-2xl">🚗</p>
+              <div className="rounded-2xl bg-sky-50 p-4 lg:p-5">
+                <p className="text-xl lg:text-2xl">🚗</p>
 
                 <p className="mt-2 font-semibold text-slate-800">
                   {t("parking")}
@@ -170,8 +188,8 @@ export default async function Home() {
 
 
 
-              <div className="rounded-2xl bg-sky-50 p-5">
-                <p className="text-2xl">🏡</p>
+              <div className="rounded-2xl bg-sky-50 p-4 lg:p-5">
+                <p className="text-xl lg:text-2xl">🏡</p>
 
                 <p className="mt-2 font-semibold text-slate-800">
                   {t("family")}
