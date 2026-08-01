@@ -1,0 +1,198 @@
+{
+  "navbar": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "about": "About us",
+    "rent": "Rent & Paddle",
+    "contact": "Contact",
+    "book": "Book now",
+    "logoAlt": "Apartments Irma Baška Voda",
+    "menu": "Menu"
+  },
+
+  "hero": {
+    "welcome": "Welcome to Baška Voda",
+    "title": "Apartments",
+    "title2": "Irma",
+    "description": "Modern apartments with sea view, only a few minutes walk from the beach. Quiet location, free parking and everything you need for a relaxing holiday.",
+    "button": "View apartments",
+
+    "features": {
+      "beach": "200 m from beach",
+      "parking": "Free parking",
+      "wifi": "Fast WiFi",
+      "sea": "Sea view"
+    }
+  },
+    "apartments": {
+    "label": "OUR ACCOMMODATION",
+    "title": "Choose your apartment",
+    "description": "Four modern apartments designed to make your stay in Baška Voda comfortable, relaxing and unforgettable.",
+
+    "guests": "Up to {count} guests",
+    "bathrooms": "{count} bathrooms",
+    "seaView": "Sea view",
+    "view": "View apartment",
+
+    "names": {
+      "a5": "Apartment A5",
+      "a6": "Apartment A6",
+      "a7": "Apartment A7",
+      "a8": "Apartment A8"
+    },
+
+    "subtitles": {
+      "a5": "Spacious apartment ideal for families",
+      "a6": "Comfortable apartment for couples",
+      "a7": "Modern apartment for three guests",
+      "a8": "Modern apartment for three guests"
+    },
+
+    "beds": {
+      "a5": "Double bed + sofa bed",
+      "a6": "Double bed",
+      "a7": "Double bed + single bed",
+      "a8": "Double bed + single bed"
+    },
+
+    "descriptions": {
+      "a5": "Spacious apartment with a separate bedroom, fully equipped kitchen and balcony with a beautiful sea view. Ideal for families or smaller groups looking for comfort, privacy and a relaxing stay in Baška Voda.",
+      "a6": "Comfortable apartment designed for couples with a balcony and sea view. Perfect for guests who want a peaceful holiday, proximity to the beach and a relaxing atmosphere.",
+      "a7": "Bright and modern apartment with a balcony and sea view. Ideal for smaller families or friends who want to enjoy a pleasant holiday on the Makarska Riviera.",
+      "a8": "Comfortable apartment with a balcony and side sea view. Modern design and a peaceful atmosphere provide everything needed for a relaxing holiday in Baška Voda."
+    },
+
+    "features": {
+      "seaView": "Sea view",
+      "balcony": "Balcony",
+      "wifi": "Free WiFi",
+      "airCondition": "Air conditioning",
+      "parking": "Free parking",
+      "kitchen": "Fully equipped kitchen",
+      "tv": "Flat screen TV",
+      "kettle": "Kettle and coffee maker",
+      "towels": "Towels and bed linen"
+    }
+  },
+    "apartmentHero": {
+    "location": "Apartments Irma • Baška Voda",
+    "guests": "Up to {count} guests",
+    "wifi": "WiFi",
+    "airCondition": "Air conditioning",
+    "parking": "Free parking",
+    "seaView": "Sea view",
+    "balcony": "Balcony",
+    "sendInquiry": "Send inquiry",
+    "callUs": "Call us"
+  },
+
+  "apartmentInfo": {
+    "label": "ACCOMMODATION",
+    "title": "About the apartment",
+    "description": "Enjoy a modern apartment, comfort and a relaxing holiday in Baška Voda, only a few minutes walk from the sea.",
+    "amenities": "Apartment amenities",
+
+    "guests": "Up to {count} guests",
+    "bathrooms": "{count} bathrooms",
+
+    "seaView": "Sea view",
+    "balcony": "Balcony",
+    "wifi": "Free WiFi",
+    "airCondition": "Air conditioning",
+    "parking": "Free parking",
+    "kitchen": "Fully equipped kitchen",
+    "tv": "Flat screen TV",
+    "kettle": "Kettle and coffee maker"
+  },
+    "inquiryForm": {
+    "reservation": "RESERVATION",
+    "title": "Send an inquiry",
+    "inquiryFor": "Inquiry for",
+    "description": "Fill out the form and we will reply as soon as possible.",
+
+    "success": "Your inquiry has been sent successfully.",
+    "error": "An error occurred. Please try again.",
+
+    "name": "Full name",
+    "email": "E-mail",
+    "phone": "Phone",
+    "guests": "Number of guests",
+    "message": "Write a message...",
+
+    "sending": "Sending...",
+    "send": "Send inquiry",
+
+    "contactTitle": "Contact",
+    "contactDescription": "Have any questions? Feel free to contact us.",
+
+    "address": "Naputica 28, Baška Voda 21320",
+    "distance": "200 m from the beach",
+    "parkingInfo": "Free parking",
+    "wifiInfo": "Free WiFi",
+    "instagram": "Instagram"
+  },
+    "home": {
+    "aboutLabel": "About us",
+    "aboutTitle": "Apartments Irma",
+
+    "aboutText1": "Located in beautiful Baška Voda, Apartments Irma offer the perfect combination of comfort, peace and proximity to the sea.",
+
+    "aboutText2": "Our apartments are designed to provide guests with a pleasant stay throughout their holiday. Enjoy beautiful sea views, close proximity to the beach, a peaceful location and everything needed for a relaxing holiday on the Makarska Riviera.",
+
+    "seaView": "Sea view",
+    "beach": "Close to the beach",
+    "parking": "Free parking",
+    "family": "Family accommodation"
+  },
+
+
+  "footer": {
+    "description": "Enjoy your holiday in modern apartments in Baška Voda, only a few minutes walk from beautiful beaches and the crystal clear sea.",
+
+    "contact": "Contact",
+    "information": "Information",
+    "navigation": "Navigation",
+
+    "parking": "Free parking",
+    "wifi": "Free WiFi",
+    "distance": "200 m from the beach",
+
+    "checkIn": "Check-in: 12:00 – 00:00",
+    "checkOut": "Check-out: until 09:30",
+
+    "home": "Home",
+    "apartments": "Apartments",
+    "reservation": "Reservation",
+
+    "rights": "All rights reserved."
+  },
+"bookingBenefits": {
+  "label": "WHY BOOK DIRECT",
+  "title": "Your booking benefits",
+  "description": "Enjoy a simple and secure reservation directly with Apartments Irma.",
+
+  "fastResponseTitle": "Fast response",
+  "fastResponseText": "We will answer your inquiry as soon as possible.",
+
+  "depositTitle": "Easy payment",
+  "depositText": "Secure reservation after agreement.",
+
+  "cancelTitle": "Flexible cancellation",
+  "cancelText": "Free cancellation up to three weeks before arrival.",
+
+  "arrivalTitle": "Flexible arrival",
+  "arrivalText": "Check-in available from 12:00.",
+
+  "parkingTitle": "Free parking",
+  "parkingText": "Private parking is available free of charge.",
+
+  "wifiTitle": "Free WiFi",
+  "wifiText": "Fast WiFi available throughout the apartment."
+},
+"gallery": {
+  "label": "GALLERY",
+  "title": "View the apartment",
+  "description": "Explore every corner of the apartment through our photo gallery.",
+  "open": "OPEN GALLERY"
+}
+}

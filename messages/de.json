@@ -1,15 +1,198 @@
 {
-  "nav": {
-    "home": "Start",
+  "navbar": {
+    "home": "Startseite",
     "apartments": "Apartments",
     "about": "Über uns",
-    "rent": "Rent",
+    "rent": "Rent & Paddle",
     "contact": "Kontakt",
-    "book": "Jetzt buchen"
+    "book": "Jetzt buchen",
+    "logoAlt": "Apartments Irma Baška Voda",
+    "menu": "Menü"
   },
 
   "hero": {
-    "title": "Apartments Irma",
-    "subtitle": "Ihr perfekter Urlaub in Baška Voda"
-  }
+    "welcome": "Willkommen in Baška Voda",
+    "title": "Apartments",
+    "title2": "Irma",
+
+    "description": "Moderne Apartments mit Meerblick, nur wenige Gehminuten vom Strand entfernt. Ruhige Lage, kostenlose Parkplätze und alles, was Sie für einen entspannten Urlaub benötigen.",
+
+    "button": "Apartments entdecken",
+
+    "features": {
+      "beach": "200 m vom Strand",
+      "parking": "Kostenlose Parkplätze",
+      "wifi": "Schnelles WLAN",
+      "sea": "Meerblick"
+    }
+  },
+    "apartments": {
+    "label": "UNSERE UNTERKÜNFTE",
+    "title": "Wählen Sie Ihr Apartment",
+    "description": "Vier modern eingerichtete Apartments, die Ihnen einen komfortablen und erholsamen Aufenthalt in Baška Voda ermöglichen.",
+
+    "guests": "Für bis zu {count} Personen",
+    "bathrooms": "{count} Badezimmer",
+    "seaView": "Meerblick",
+    "view": "Apartment ansehen",
+
+    "names": {
+      "a5": "Apartment A5",
+      "a6": "Apartment A6",
+      "a7": "Apartment A7",
+      "a8": "Apartment A8"
+    },
+
+    "subtitles": {
+      "a5": "Geräumiges Apartment ideal für Familien",
+      "a6": "Komfortables Apartment für zwei Personen",
+      "a7": "Modernes Apartment für drei Personen",
+      "a8": "Modernes Apartment für drei Personen"
+    },
+
+    "beds": {
+      "a5": "Doppelbett + Schlafsofa",
+      "a6": "Doppelbett",
+      "a7": "Doppelbett + Einzelbett",
+      "a8": "Doppelbett + Einzelbett"
+    },
+
+    "descriptions": {
+      "a5": "Geräumiges Apartment mit separatem Schlafzimmer, voll ausgestatteter Küche und Balkon mit wunderschönem Meerblick. Ideal für Familien oder kleinere Gruppen, die einen komfortablen und ruhigen Aufenthalt in Baška Voda suchen.",
+
+      "a6": "Komfortables Apartment für Paare mit Balkon und Meerblick. Die perfekte Wahl für Gäste, die einen ruhigen Urlaub, die Nähe zum Strand und eine entspannte Atmosphäre genießen möchten.",
+
+      "a7": "Helles und modern eingerichtetes Apartment mit Balkon und Meerblick. Ideal für kleinere Familien oder Freunde, die einen angenehmen Urlaub an der Makarska Riviera verbringen möchten.",
+
+      "a8": "Komfortables Apartment mit Balkon und seitlichem Meerblick. Moderner Raum und eine ruhige Atmosphäre bieten alles für einen entspannten Urlaub in Baška Voda."
+    },
+
+    "features": {
+      "seaView": "Meerblick",
+      "balcony": "Balkon",
+      "wifi": "Kostenloses WLAN",
+      "airCondition": "Klimaanlage",
+      "parking": "Kostenlose Parkplätze",
+      "kitchen": "Voll ausgestattete Küche",
+      "tv": "Flachbildfernseher",
+      "kettle": "Wasserkocher und Kaffeemaschine",
+      "towels": "Handtücher und Bettwäsche"
+    }
+  },
+ "apartmentHero": {
+  "location": "Apartments Irma • Baška Voda",
+  "guests": "Für bis zu {count} Personen",
+  "wifi": "WLAN",
+  "airCondition": "Klimaanlage",
+  "parking": "Kostenlose Parkplätze",
+  "seaView": "Meerblick",
+  "balcony": "Balkon",
+  "sendInquiry": "Anfrage senden",
+  "callUs": "Kontakt aufnehmen"
+},
+
+"apartmentInfo": {
+  "label": "UNTERKUNFT",
+  "title": "Über das Apartment",
+  "description": "Genießen Sie ein modern eingerichtetes Apartment mit hohem Komfort und entspannen Sie Ihren Urlaub in Baška Voda, nur wenige Minuten vom Meer entfernt.",
+
+  "amenities": "Ausstattung des Apartments",
+
+  "guests": "Für bis zu {count} Personen",
+  "bathrooms": "{count} Badezimmer",
+
+  "seaView": "Meerblick",
+  "balcony": "Balkon",
+  "wifi": "Kostenloses WLAN",
+  "airCondition": "Klimaanlage",
+  "parking": "Kostenlose Parkplätze",
+  "kitchen": "Voll ausgestattete Küche",
+  "tv": "Flachbildfernseher",
+  "kettle": "Wasserkocher und Kaffeemaschine"
+}, 
+"inquiryForm": {
+  "reservation": "RESERVIERUNG",
+  "title": "Anfrage senden",
+  "inquiryFor": "Anfrage für",
+  "description": "Füllen Sie das Formular aus und wir werden Ihnen schnellstmöglich antworten.",
+
+  "success": "Ihre Anfrage wurde erfolgreich gesendet.",
+  "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+
+  "name": "Vor- und Nachname",
+  "email": "E-Mail-Adresse",
+  "phone": "Telefonnummer",
+  "guests": "Anzahl der Gäste",
+  "message": "Ihre Nachricht...",
+  
+  "sending": "Wird gesendet...",
+  "send": "Anfrage senden",
+
+  "contactTitle": "Kontakt",
+  "contactDescription": "Haben Sie Fragen? Kontaktieren Sie uns gerne.",
+
+  "address": "Naputica 28, 21320 Baška Voda",
+  "distance": "200 m vom Strand",
+  "parkingInfo": "Kostenlose Parkplätze",
+  "wifiInfo": "Kostenloses WLAN",
+  "instagram": "Instagram"
+},
+"home": {
+  "aboutLabel": "Über uns",
+  "aboutTitle": "Apartments Irma",
+
+  "aboutText1": "In der wunderschönen Baška Voda gelegen, bieten die Apartments Irma die perfekte Kombination aus Komfort, Ruhe und Nähe zum Meer.",
+
+  "aboutText2": "Unsere Apartments sind so eingerichtet, dass sie unseren Gästen während des gesamten Aufenthalts einen angenehmen Urlaub ermöglichen. Genießen Sie den wunderschönen Meerblick, die Nähe zum Strand, die ruhige Lage und alles, was Sie für einen erholsamen Urlaub an der Makarska Riviera benötigen.",
+
+  "seaView": "Meerblick",
+  "beach": "Strandnähe",
+  "parking": "Kostenlose Parkplätze",
+  "family": "Familienunterkunft"
+},
+
+"footer": {
+  "description": "Genießen Sie Ihren Urlaub in modern eingerichteten Apartments in Baška Voda, nur wenige Minuten zu Fuß von wunderschönen Stränden und dem kristallklaren Meer entfernt.",
+  "contact": "Kontakt",
+  "information": "Informationen",
+  "navigation": "Navigation",
+  "parking": "Kostenlose Parkplätze",
+  "wifi": "Kostenloses WLAN",
+  "distance": "200 m vom Strand",
+  "checkIn": "Anreise: 12:00 – 00:00",
+  "checkOut": "Abreise: bis 09:30",
+  "home": "Startseite",
+  "apartments": "Apartments",
+  "reservation": "Reservierung",
+  "rights": "Alle Rechte vorbehalten."
+},
+"bookingBenefits": {
+  "label": "WARUM DIREKT BUCHEN",
+  "title": "Ihre Vorteile bei der Buchung",
+  "description": "Genießen Sie eine sichere und einfache Reservierung direkt bei Apartments Irma.",
+
+  "fastResponseTitle": "Schnelle Antwort",
+  "fastResponseText": "Wir beantworten Ihre Anfrage schnellstmöglich.",
+
+  "depositTitle": "Einfache Zahlung",
+  "depositText": "Sichere Reservierung nach Vereinbarung.",
+
+  "cancelTitle": "Flexible Stornierung",
+  "cancelText": "Kostenlose Stornierung bis drei Wochen vor Anreise.",
+
+  "arrivalTitle": "Flexible Anreise",
+  "arrivalText": "Check-in ab 12:00 Uhr möglich.",
+
+  "parkingTitle": "Kostenloser Parkplatz",
+  "parkingText": "Privater Parkplatz steht unseren Gästen kostenlos zur Verfügung.",
+
+  "wifiTitle": "Kostenloses WLAN",
+  "wifiText": "Schnelles WLAN im gesamten Apartment."
+},
+"gallery": {
+  "label": "GALERIE",
+  "title": "Apartment ansehen",
+  "description": "Entdecken Sie jeden Winkel des Apartments durch unsere Fotogalerie.",
+  "open": "GALERIE ÖFFNEN"
+}
 }

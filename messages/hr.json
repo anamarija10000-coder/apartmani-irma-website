@@ -1,0 +1,186 @@
+{
+  "navbar": {
+    "home": "Početna",
+    "apartments": "Apartmani",
+    "about": "O nama",
+    "rent": "Rent & Paddle",
+    "contact": "Kontakt",
+    "book": "Rezervirajte",
+    "logoAlt": "Apartmani Irma Baška Voda",
+    "menu": "Izbornik"
+  },
+
+  "hero": {
+    "welcome": "Dobrodošli u Bašku Vodu",
+    "title": "Apartmani",
+    "title2": "Irma",
+    "description": "Moderni apartmani s pogledom na more, svega nekoliko minuta hoda od plaže. Mirna lokacija, besplatan parking i sve što vam je potrebno za bezbrižan odmor.",
+    "button": "Pogledaj apartmane",
+    "features": {
+      "beach": "200 m od plaže",
+      "parking": "Besplatan parking",
+      "wifi": "Brzi WiFi",
+      "sea": "Pogled na more"
+    }
+  },
+
+  "apartments": {
+    "label": "NAŠ SMJEŠTAJ",
+    "title": "Odaberite svoj apartman",
+    "description": "Četiri moderno uređena apartmana, pažljivo uređena kako bi vaš odmor u Baškoj Vodi bio ugodan, opuštajući i bezbrižan.",
+    "guests": "Za do {count} osoba",
+    "bathrooms": "{count} kupaonica",
+    "seaView": "Pogled na more",
+    "view": "Pogledaj apartman",
+
+    "names": {
+      "a5": "Apartman A5",
+      "a6": "Apartman A6",
+      "a7": "Apartman A7",
+      "a8": "Apartman A8"
+    },
+
+    "subtitles": {
+      "a5": "Prostrani apartman idealan za obitelji",
+      "a6": "Ugodan apartman za dvije osobe",
+      "a7": "Moderan apartman za tri osobe",
+      "a8": "Moderan apartman za tri osobe"
+    },
+
+    "beds": {
+      "a5": "Bračni krevet + sofa na razvlačenje",
+      "a6": "Bračni krevet",
+      "a7": "Bračni krevet + pomoćni krevet",
+      "a8": "Bračni krevet + pomoćni krevet"
+    },
+
+    "descriptions": {
+      "a5": "Prostrani apartman s odvojenom spavaćom sobom, potpuno opremljenom kuhinjom i balkonom s prekrasnim pogledom na more. Idealan je za obitelji ili manje grupe koje žele udoban i miran odmor u Baškoj Vodi.",
+      "a6": "Ugodan apartman namijenjen parovima s balkonom i pogledom na more. Savršen izbor za goste koji žele miran odmor, blizinu plaže i opuštenu atmosferu Baške Vode.",
+      "a7": "Svijetao i moderno uređen apartman s balkonom i pogledom na more. Idealan je za manje obitelji ili prijatelje koji žele uživati u ugodnom odmoru na Makarskoj rivijeri.",
+      "a8": "Ugodan apartman s balkonom i bočnim pogledom na more. Moderan prostor i mirna atmosfera pružaju sve potrebno za bezbrižan odmor u Baškoj Vodi."
+    },
+
+    "features": {
+      "seaView": "Pogled na more",
+      "balcony": "Balkon",
+      "wifi": "Besplatan WiFi",
+      "airCondition": "Klima uređaj",
+      "parking": "Besplatan parking",
+      "kitchen": "Potpuno opremljena kuhinja",
+      "tv": "TV ravnog ekrana",
+      "kettle": "Kuhalo za vodu i džezva za kavu",
+      "towels": "Ručnici i posteljina"
+    }
+  },
+    "apartmentHero": {
+    "location": "Apartmani Irma • Baška Voda",
+    "guests": "Za do {count} osoba",
+    "wifi": "WiFi",
+    "airCondition": "Klima uređaj",
+    "parking": "Parking",
+    "seaView": "Pogled na more",
+    "balcony": "Balkon",
+    "sendInquiry": "Pošalji upit",
+    "callUs": "Nazovite nas"
+  },
+
+  "apartmentInfo": {
+    "label": "SMJEŠTAJ",
+    "title": "O apartmanu",
+    "description": "Uživajte u moderno uređenom apartmanu, udobnosti i opuštajućem odmoru u Baškoj Vodi, svega nekoliko minuta hoda od mora.",
+    "amenities": "Sadržaji apartmana",
+    "guests": "Za do {count} osoba",
+    "bathrooms": "{count} kupaonica",
+    "seaView": "Pogled na more",
+    "balcony": "Balkon",
+    "wifi": "Besplatan WiFi",
+    "airCondition": "Klima uređaj",
+    "parking": "Besplatan parking",
+    "kitchen": "Potpuno opremljena kuhinja",
+    "tv": "TV ravnog ekrana",
+    "kettle": "Kuhalo za vodu i džezva za kavu"
+  },
+
+  "inquiryForm": {
+    "reservation": "REZERVACIJA",
+    "title": "Pošaljite upit",
+    "inquiryFor": "Upit za",
+    "description": "Ispunite obrazac i odgovorit ćemo vam u najkraćem mogućem roku.",
+    "success": "Vaš upit je uspješno poslan.",
+    "error": "Došlo je do greške. Molimo pokušajte ponovno.",
+
+    "name": "Ime i prezime",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "guests": "Broj osoba",
+    "message": "Napišite poruku...",
+    "sending": "Šaljem...",
+    "send": "Pošalji upit",
+
+    "contactTitle": "Kontakt",
+    "contactDescription": "Imate pitanja? Slobodno nam se javite.",
+
+    "address": "Naputica 28, Baška Voda 21320",
+    "distance": "200 m od plaže",
+    "parkingInfo": "Besplatan parking",
+    "wifiInfo": "Besplatan WiFi",
+    "instagram": "Instagram"
+  },
+
+  "home": {
+    "aboutLabel": "O nama",
+    "aboutTitle": "Apartmani Irma",
+    "aboutText1": "Smješteni u prekrasnoj Baškoj Vodi, Apartmani Irma pružaju savršen spoj udobnosti, mira i blizine mora.",
+    "aboutText2": "Naši apartmani uređeni su kako bi gostima pružili ugodan boravak tijekom cijelog odmora. Uživajte u prekrasnom pogledu na more, blizini plaže, mirnoj lokaciji i svim sadržajima potrebnim za bezbrižan odmor na Makarskoj rivijeri.",
+    "seaView": "Pogled na more",
+    "beach": "Blizina plaže",
+    "parking": "Besplatan parking",
+    "family": "Obiteljski smještaj"
+  },
+
+  "footer": {
+    "description": "Uživajte u odmoru u moderno uređenim apartmanima u Baškoj Vodi, svega nekoliko minuta hoda od prekrasnih plaža i kristalno čistog mora.",
+    "contact": "Kontakt",
+    "information": "Informacije",
+    "navigation": "Navigacija",
+    "parking": "Besplatan parking",
+    "wifi": "Besplatan WiFi",
+    "distance": "200 m od plaže",
+    "checkIn": "Prijava: 12:00 – 00:00",
+    "checkOut": "Odjava: do 09:30",
+    "home": "Početna",
+    "apartments": "Apartmani",
+    "reservation": "Rezervacija",
+    "rights": "Sva prava pridržana."
+  },
+"bookingBenefits": {
+  "label": "ZAŠTO REZERVIRATI DIREKTNO",
+  "title": "Prednosti direktne rezervacije",
+  "description": "Jednostavna i sigurna rezervacija direktno s Apartmanima Irma.",
+
+  "fastResponseTitle": "Brz odgovor",
+  "fastResponseText": "Na vaš upit odgovaramo u najkraćem mogućem roku.",
+
+  "depositTitle": "Jednostavno plaćanje",
+  "depositText": "Sigurna rezervacija prema dogovoru.",
+
+  "cancelTitle": "Fleksibilno otkazivanje",
+  "cancelText": "Besplatno otkazivanje do tri tjedna prije dolaska.",
+
+  "arrivalTitle": "Fleksibilan dolazak",
+  "arrivalText": "Prijava moguća od 12:00 sati.",
+
+  "parkingTitle": "Besplatan parking",
+  "parkingText": "Privatni parking dostupan je svim gostima.",
+
+  "wifiTitle": "Besplatan WiFi",
+  "wifiText": "Brzi WiFi dostupan u cijelom apartmanu."
+},
+"gallery": {
+  "label": "GALERIJA",
+  "title": "Pogledajte apartman",
+  "description": "Istražite svaki kutak apartmana kroz galeriju fotografija.",
+  "open": "OTVORI GALERIJU"
+}
+}
