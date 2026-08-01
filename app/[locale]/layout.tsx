@@ -226,17 +226,17 @@ export default async function LocaleLayout({
 
   return (
 
-   <NextIntlClientProvider
-  locale={locale}
-  messages={messages}
->
+  <NextIntlClientProvider
+    locale={locale}
+    messages={messages}
+  >
 
-  <StructuredData />
+    <StructuredData locale={locale} />
 
-  {children}
+    {children}
 
-</NextIntlClientProvider>
+  </NextIntlClientProvider>
 
-  );
+);
 
 }

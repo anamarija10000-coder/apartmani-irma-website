@@ -14,6 +14,9 @@ export default function StructuredData() {
     telephone:
       "+385959091695",
 
+    priceRange:
+      "€€",
+
     address: {
       "@type": "PostalAddress",
 
@@ -40,6 +43,10 @@ export default function StructuredData() {
       longitude:
         "16.9506",
     },
+
+
+    hasMap:
+      "https://maps.google.com/?q=Naputica+28+Baška+Voda",
 
 
     image: [
@@ -76,6 +83,13 @@ export default function StructuredData() {
       },
 
     ],
+
+
+    checkinTime:
+      "12:00",
+
+    checkoutTime:
+      "09:30",
 
 
     sameAs: [
