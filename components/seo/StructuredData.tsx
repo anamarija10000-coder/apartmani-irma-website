@@ -1,4 +1,8 @@
-export default function StructuredData() {
+export default function StructuredData({
+  locale = "hr",
+}: {
+  locale?: string;
+}) {
   const data = {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
