@@ -1,8 +1,10 @@
+import StructuredData from "@/components/seo/StructuredData";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ReactNode } from "react";
 import { getMessages } from "next-intl/server";
 import type { Metadata } from "next";
+
 
 
 const locales = ["hr", "en", "de"];
@@ -23,28 +25,28 @@ export async function generateMetadata({
 
     hr: {
       title:
-        "Apartmani Irma | Baška Voda - Apartmani blizu plaže",
+        "Apartmani Irma Baška Voda | 200 m od plaže",
 
       description:
-        "Moderni apartmani Irma u Baškoj Vodi. Smještaj s pogledom na more, besplatan parking i samo nekoliko minuta od plaže.",
+        "Apartmani Irma u Baškoj Vodi nude moderan smještaj 200 m od plaže, besplatan parking, WiFi, klimu i potpuno opremljene apartmane na Makarskoj rivijeri.",
     },
 
 
     en: {
       title:
-        "Apartments Irma | Baška Voda - Near the Beach",
+        "Apartments Irma Baška Voda | 200 m from the Beach",
 
       description:
-        "Modern apartments in Baška Voda with sea view, free parking and a perfect location near the beach.",
+        "Apartments Irma in Baška Voda offer modern accommodation 200 m from the beach, free parking, WiFi, air conditioning and a perfect holiday location.",
     },
 
 
     de: {
       title:
-        "Apartments Irma | Baška Voda - Urlaub am Meer",
+        "Apartments Irma Baška Voda | 200 m vom Strand",
 
       description:
-        "Moderne Apartments in Baška Voda mit Meerblick, kostenlosem Parkplatz und perfekter Lage nahe dem Strand.",
+        "Apartments Irma in Baška Voda bieten moderne Unterkunft, nur 200 m vom Strand entfernt, mit Parkplatz, WLAN und Klimaanlage.",
     },
 
   };
@@ -54,31 +56,87 @@ export async function generateMetadata({
     seo[locale as keyof typeof seo] || seo.hr;
 
 
+  const baseUrl =
+    "https://www.irma-apartments-baskavoda.com";
+
+
   return {
 
-    title: content.title,
+    metadataBase:
+      new URL(baseUrl),
 
-    description: content.description,
+
+    title:
+      content.title,
+
+
+    description:
+      content.description,
 
 
     keywords: [
+
       "Apartmani Irma",
-      "Baška Voda apartmani",
-      "apartments Baška Voda",
+
+      "apartmani Baška Voda",
+
       "smještaj Baška Voda",
-      "Makarska Riviera",
-      "Croatia accommodation",
+
+      "apartments Baška Voda",
+
+      "Baška Voda accommodation",
+
       "apartments near beach",
+
+      "Makarska Riviera",
+
+      "Croatia holidays",
+
     ],
+
+
+    alternates: {
+
+      canonical:
+        `${baseUrl}/${locale}`,
+
+      languages: {
+
+        hr:
+          `${baseUrl}/hr`,
+
+        en:
+          `${baseUrl}/en`,
+
+        de:
+          `${baseUrl}/de`,
+
+      },
+
+    },
 
 
     openGraph: {
 
-      title: content.title,
+      title:
+        content.title,
 
-      description: content.description,
 
-      type: "website",
+      description:
+        content.description,
+
+
+      url:
+        `${baseUrl}/${locale}`,
+
+
+      siteName:
+        "Apartmani Irma",
+
+
+      type:
+        "website",
+
 
       locale:
         locale === "hr"
@@ -89,12 +147,22 @@ export async function generateMetadata({
 
 
       images: [
+
         {
-          url: "/images/hero.jpg",
-          width: 1200,
-          height: 630,
-          alt: "Apartmani Irma Baška Voda",
+          url:
+            "/images/hero.jpg",
+
+          width:
+            1200,
+
+          height:
+            630,
+
+          alt:
+            "Apartmani Irma Baška Voda",
+
         },
+
       ],
 
     },
@@ -102,22 +170,29 @@ export async function generateMetadata({
 
     twitter: {
 
-      card: "summary_large_image",
+      card:
+        "summary_large_image",
 
-      title: content.title,
+      title:
+        content.title,
 
-      description: content.description,
+      description:
+        content.description,
 
-      images: [
-        "/images/hero.jpg",
-      ],
+      images:
+        ["/images/hero.jpg"],
 
     },
 
 
     robots: {
-      index: true,
-      follow: true,
+
+      index:
+        true,
+
+      follow:
+        true,
+
     },
 
   };
@@ -136,7 +211,8 @@ export default async function LocaleLayout({
 }) {
 
 
-  const { locale } = await params;
+  const { locale } =
+    await params;
 
 
   if (!locales.includes(locale)) {
@@ -144,15 +220,23 @@ export default async function LocaleLayout({
   }
 
 
-  const messages = await getMessages();
+  const messages =
+    await getMessages();
 
 
   return (
-    <NextIntlClientProvider
-      locale={locale}
-      messages={messages}
-    >
-      {children}
-    </NextIntlClientProvider>
+
+   <NextIntlClientProvider
+  locale={locale}
+  messages={messages}
+>
+
+  <StructuredData />
+
+  {children}
+
+</NextIntlClientProvider>
+
   );
+
 }

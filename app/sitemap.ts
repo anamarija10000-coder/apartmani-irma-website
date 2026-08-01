@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const baseUrl =
     process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://apartmaniirma.com";
+    "https://www.irma-apartments-baskavoda.com";
 
 
   const locales = [
@@ -32,25 +32,64 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
 
+    // Glavne jezične stranice
     ...locales.map((locale) => ({
-      url: `${baseUrl}/${locale}`,
-      lastModified: new Date(),
+
+      url:
+        `${baseUrl}/${locale}`,
+
+      lastModified:
+        new Date(),
+
+      changeFrequency:
+        "weekly" as const,
+
+      priority:
+        1,
+
     })),
 
 
+
+    // Ostale stranice
     ...locales.flatMap((locale) =>
-      pages.map((page) => ({
-        url: `${baseUrl}/${locale}${page}`,
-        lastModified: new Date(),
-      }))
+      pages
+        .filter((page) => page !== "")
+        .map((page) => ({
+
+          url:
+            `${baseUrl}/${locale}${page}`,
+
+          lastModified:
+            new Date(),
+
+          changeFrequency:
+            "monthly" as const,
+
+          priority:
+            0.8,
+
+        }))
     ),
 
 
+
+    // Apartmani
     ...locales.flatMap((locale) =>
       apartments.map((id) => ({
+
         url:
           `${baseUrl}/${locale}/apartments/${id}`,
-        lastModified: new Date(),
+
+        lastModified:
+          new Date(),
+
+        changeFrequency:
+          "monthly" as const,
+
+        priority:
+          0.7,
+
       }))
     ),
 
