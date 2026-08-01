@@ -119,7 +119,7 @@ export async function POST(req: Request) {
     const ownerEmail = await resend.emails.send({
 
       from:
-      "Apartmani Irma <onboarding@resend.dev>",
+"Apartmani Irma <info@irma-apartments-baskavoda.com>",
 
       to:
       "saric.irma68@gmail.com",
@@ -355,8 +355,8 @@ Naputica 28, Baška Voda<br/>
 
     const guestEmail = await resend.emails.send({
 
-      from:
-      "Apartmani Irma <onboarding@resend.dev>",
+     from:
+"Apartmani Irma <info@irma-apartments-baskavoda.com>",
 
 
       to:
