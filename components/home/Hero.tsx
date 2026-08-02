@@ -57,7 +57,7 @@ lg:pb-32
   lg:flex-row
   lg:items-center
   lg:px-8
-" "
+" 
       >
 
         <div className="max-w-3xl">
