@@ -1,4 +1,5 @@
 import StructuredData from "@/components/seo/StructuredData";
+import WhatsAppButton from "@/components/common/WhatsAppButton";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ReactNode } from "react";
@@ -150,7 +151,7 @@ export async function generateMetadata({
 
         {
           url:
-            "/images/hero.jpg",
+            "/images/hero.webp",
 
           width:
             1200,
@@ -180,7 +181,7 @@ export async function generateMetadata({
         content.description,
 
       images:
-        ["/images/hero.jpg"],
+        ["/images/hero.webp"],
 
     },
 
@@ -224,7 +225,7 @@ export default async function LocaleLayout({
     await getMessages();
 
 
-  return (
+return (
 
   <NextIntlClientProvider
     locale={locale}
@@ -234,6 +235,8 @@ export default async function LocaleLayout({
     <StructuredData locale={locale} />
 
     {children}
+
+    <WhatsAppButton />
 
   </NextIntlClientProvider>
 

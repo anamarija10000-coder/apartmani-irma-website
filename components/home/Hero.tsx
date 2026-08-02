@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 export default function Hero() {
@@ -26,7 +27,7 @@ lg:pt-0
 lg:pb-32
 "
       style={{
-  backgroundImage: "url('/images/hero.jpg')",
+  backgroundImage: "url('/images/hero.webp')",
   backgroundPosition: "center top",
 }}
     >
@@ -60,7 +61,15 @@ lg:pb-32
 " 
       >
 
-        <div className="max-w-3xl">
+        <motion.div
+  className="max-w-3xl"
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    duration: 0.8,
+    ease: "easeOut",
+  }}
+>
 
           <p
             className="
@@ -145,12 +154,19 @@ lg:text-lg
 
           </div>
 
-        </div>
+        </motion.div>
 
 
 
-        <div
-        className="
+        <motion.div
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    delay: 0.4,
+    duration: 0.8,
+    ease: "easeOut",
+  }}
+  className="
   mt-10
   w-full
   lg:absolute
@@ -161,7 +177,8 @@ lg:text-lg
   lg:translate-y-1/2
   lg:px-6
 "
-        >
+>
+
 
           <div
             className="
@@ -224,12 +241,14 @@ leading-4
 
             ))}
 
-          </div>
+        
 
         </div>
 
 
-      </div>
+      </motion.div>
+
+</div>
 
     </section>
   );

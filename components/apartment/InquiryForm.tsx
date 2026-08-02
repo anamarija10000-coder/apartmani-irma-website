@@ -155,7 +155,7 @@ export default function InquiryForm({ apartment }: Props) {
       id="rezervacija"
       className="
         bg-stone-50
-        py-24
+        py-16 lg:py-24
       "
     >
 
@@ -164,7 +164,7 @@ export default function InquiryForm({ apartment }: Props) {
         className="
           mx-auto
           max-w-6xl
-          px-6
+          px-4 sm:px-6
         "
       >
 
@@ -194,14 +194,15 @@ export default function InquiryForm({ apartment }: Props) {
 
 
 
-          <h2
-            className="
-              mt-3
-              font-heading
-              text-5xl
-              text-slate-900
-            "
-          >
+         <h2
+  className="
+    mt-3
+    font-heading
+    text-4xl
+    text-slate-900
+    sm:text-5xl
+  "
+>
             {t("title")}
           </h2>
 
@@ -229,8 +230,10 @@ export default function InquiryForm({ apartment }: Props) {
               mx-auto
               mt-5
               max-w-2xl
-              text-lg
-              leading-8
+             text-base
+leading-7
+sm:text-lg
+sm:leading-8
               text-slate-500
             "
           >
@@ -245,12 +248,13 @@ export default function InquiryForm({ apartment }: Props) {
 
 
        <div
-  className="
-    grid
-    gap-12
-    lg:grid-cols-3
-    items-stretch
-  "
+className="
+  grid
+  gap-4 sm:gap-6
+  lg:gap-12
+  lg:grid-cols-3
+  items-stretch
+"
 >
 
 
@@ -262,7 +266,7 @@ export default function InquiryForm({ apartment }: Props) {
   className="
     rounded-[32px]
     bg-white
-    p-8
+    p-5 sm:p-8
     shadow-xl
     lg:col-span-2
   "
@@ -316,7 +320,7 @@ export default function InquiryForm({ apartment }: Props) {
               onSubmit={handleSubmit}
               className="
                 grid
-                gap-6
+               gap-4 sm:gap-6
                 md:grid-cols-2
               "
             >
@@ -348,7 +352,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -391,7 +395,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -433,7 +437,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -476,7 +480,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -518,7 +522,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -560,7 +564,7 @@ export default function InquiryForm({ apartment }: Props) {
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -594,14 +598,14 @@ export default function InquiryForm({ apartment }: Props) {
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  rows={6}
+                  rows={4}
                   placeholder={t("message")}
                   className="
                     w-full
                     rounded-2xl
                     border
                     border-slate-200
-                    py-4
+                    py-3 sm:py-4
                     pl-12
                     pr-4
                     outline-none
@@ -624,8 +628,10 @@ export default function InquiryForm({ apartment }: Props) {
                   md:col-span-2
                   rounded-full
                   bg-sky-700
-                  py-5
-                  text-lg
+                  py-3 sm:py-4
+text-base
+sm:py-5
+sm:text-lg
                   font-semibold
                   text-white
                   transition-all
@@ -653,23 +659,21 @@ export default function InquiryForm({ apartment }: Props) {
 
 <div
   className="
-    rounded-[32px]
-    bg-slate-900
-    p-10
-    text-white
-    shadow-xl
-    min-h-[450px]
-    flex
-    flex-col
-    justify-center
-  "
+  rounded-[32px]
+  bg-slate-900
+  p-5 sm:p-8
+  text-white
+  shadow-xl
+  flex
+  flex-col
+"
 >
 
 <h3
   className="
     mb-4
     font-heading
-    text-3xl
+    text-2xl sm:text-3xl
     text-white
   "
 >
@@ -685,16 +689,17 @@ export default function InquiryForm({ apartment }: Props) {
 >
   {t("contactDescription")}
 </p>
-
-  <div className="mt-8 space-y-5">
+<div className="mt-6 space-y-3">
 
     <div className="flex items-center gap-4">
 
       <div
         className="
           flex
-          h-10
-          w-10
+         h-9
+w-9
+sm:h-10
+sm:w-10
           items-center
           justify-center
           rounded-xl
@@ -719,8 +724,10 @@ export default function InquiryForm({ apartment }: Props) {
       <div
         className="
           flex
-          h-10
-          w-10
+       h-9
+w-9
+sm:h-10
+sm:w-10
           items-center
           justify-center
           rounded-xl
@@ -733,9 +740,9 @@ export default function InquiryForm({ apartment }: Props) {
         />
       </div>
 
-      <span>
-        saric.irma68@gmail.com
-      </span>
+      <span className="break-all">
+  saric.irma68@gmail.com
+</span>
 
     </div>
 
@@ -744,11 +751,11 @@ export default function InquiryForm({ apartment }: Props) {
 
   <div
     className="
-      mt-8
+      mt-5
       border-t
       border-white/10
-      pt-6
-      space-y-3
+      pt-4
+      space-y-2
       text-sm
       text-slate-300
     "
@@ -784,7 +791,38 @@ export default function InquiryForm({ apartment }: Props) {
     </p>
 
   </div>
+<div className="mt-5">
+  <iframe
+    src="https://www.google.com/maps?q=Naputica+28,+Baška+Voda&output=embed"
+    className="h-52 sm:h-72 w-full rounded-2xl"
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
 
+<a
+  href="https://maps.google.com/?q=Naputica+28,+Baška+Voda"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    mt-3
+    flex
+    w-full
+    items-center
+    justify-center
+    rounded-xl
+    bg-sky-600
+    px-4
+    py-3
+    font-semibold
+    text-white
+    transition
+    hover:bg-sky-700
+  "
+>
+  📍 Otvori u Google Maps
+</a>
 
 </div>
 

@@ -4,7 +4,7 @@ export const apartments = [
     name: "Apartman A5",
     subtitle: "Prostrani obiteljski apartman s pogledom na more",
 
-    image: "/images/apartments/a5/1.jpg",
+    image: "/images/apartments/a5/1.webp",
 
     guests: 4,
     beds: "Bračni krevet + kauč na razvlačenje",
@@ -41,13 +41,12 @@ export const apartments = [
     ],
   },
 
-
   {
     id: "a6",
     name: "Apartman A6",
     subtitle: "Ugodan apartman za parove s pogledom na more",
 
-    image: "/images/apartments/a6/1.jpg",
+    image: "/images/apartments/a6/1.webp",
 
     guests: 2,
     beds: "Bračni krevet",
@@ -84,13 +83,12 @@ export const apartments = [
     ],
   },
 
-
   {
     id: "a7",
     name: "Apartman A7",
     subtitle: "Moderan apartman s pogledom na more",
 
-    image: "/images/apartments/a7/1.jpg",
+    image: "/images/apartments/a7/1.webp",
 
     guests: 3,
     beds: "Bračni krevet + krevet za jednu osobu",
@@ -127,13 +125,12 @@ export const apartments = [
     ],
   },
 
-
   {
     id: "a8",
     name: "Apartman A8",
     subtitle: "Udoban apartman s bočnim pogledom na more",
 
-    image: "/images/apartments/a8/1.jpg",
+    image: "/images/apartments/a8/1.webp",
 
     guests: 3,
     beds: "Bračni krevet + krevet za jednu osobu",

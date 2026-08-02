@@ -55,7 +55,7 @@ export default function StructuredData({
 
     image: [
 
-      "https://www.irma-apartments-baskavoda.com/images/hero.jpg",
+      "https://www.irma-apartments-baskavoda.com/images/hero.webp",
 
     ],
 

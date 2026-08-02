@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     images: [
       {
         url:
-          "/images/hero.jpg",
+          "/images/hero.webp",
 
         width:
           1200,
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
       "Moderni apartmani 200 m od plaže u Baškoj Vodi.",
 
     images:
-      ["/images/hero.jpg"],
+      ["/images/hero.webp"],
   },
 
 

@@ -10,6 +10,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Counter from "yet-another-react-lightbox/plugins/counter";
 
 
 type Props = {
@@ -27,6 +28,7 @@ export default function ApartmentGallery({
 
 
   const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
 
 
   if (!images.length) return null;
@@ -49,12 +51,32 @@ export default function ApartmentGallery({
         </p>
 
 
-        <h2 className="mt-3 font-heading text-5xl text-slate-900">
+        <h2
+  className="
+    mt-3
+    font-heading
+    text-4xl
+    leading-none
+    text-slate-900
+    sm:text-5xl
+  "
+>
           {t("title")}
         </h2>
 
 
-        <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-500">
+        <p
+  className="
+    mt-4
+    mb-10
+    max-w-2xl
+    text-base
+    leading-7
+    text-slate-500
+    lg:text-lg
+    lg:leading-8
+  "
+>
           {t("description")}
         </p>
 
@@ -63,16 +85,29 @@ export default function ApartmentGallery({
 
 
       {/* Grid */}
-      <div className="grid gap-4 lg:grid-cols-4">
+      <div
+  className="
+    grid
+    grid-cols-2
+    gap-3
+    lg:grid-cols-4
+    lg:gap-4
+  "
+>
 
 
         {/* Glavna fotografija */}
         <div
-          onClick={() => setOpen(true)}
+          onClick={() => {
+  setIndex(0);
+  setOpen(true);
+}}
           className="
             group
             relative
-            h-[560px]
+            h-[240px]
+sm:h-[320px]
+lg:h-[560px]
             cursor-pointer
             overflow-hidden
             rounded-[32px]
@@ -103,11 +138,16 @@ export default function ApartmentGallery({
 
             <div
               key={index}
-              onClick={() => setOpen(true)}
+              onClick={() => {
+  setIndex(index + 1);
+  setOpen(true);
+}}
               className="
                 group
                 relative
-                h-[270px]
+                h-[120px]
+sm:h-[180px]
+lg:h-[270px]
                 cursor-pointer
                 overflow-hidden
                 rounded-[28px]
@@ -185,15 +225,16 @@ export default function ApartmentGallery({
       <Lightbox
 
         open={open}
-
+index={index}
         close={() => setOpen(false)}
 
         slides={slides}
 
-        plugins={[
-          Zoom,
-          Thumbnails,
-        ]}
+       plugins={[
+  Zoom,
+  Thumbnails,
+  Counter,
+]}
 
         carousel={{
           finite: false,
@@ -217,7 +258,14 @@ export default function ApartmentGallery({
         controller={{
           closeOnBackdropClick: true,
         }}
-
+    render={{
+  buttonPrev: images.length > 1 ? undefined : () => null,
+  buttonNext: images.length > 1 ? undefined : () => null,
+}}    
+animation={{
+  fade: 300,
+  swipe: 400,
+}}
         styles={{
           container: {
             backgroundColor: "rgba(8,15,25,0.96)",
