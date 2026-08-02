@@ -10,20 +10,20 @@ export default function Hero() {
 
   return (
     <section
-      className="
-  relative
-  isolate
-  overflow-hidden
-  bg-cover
-  bg-center
-  pt-24
-  pb-56
-  min-h-[620px]
-  lg:flex
-  lg:min-h-screen
-  lg:items-center
-  lg:pt-0
-  lg:pb-32
+     className="
+relative
+isolate
+overflow-hidden
+bg-cover
+bg-center
+pt-24
+pb-14
+min-h-auto
+lg:flex
+lg:min-h-screen
+lg:items-center
+lg:pt-0
+lg:pb-32
 "
       style={{
   backgroundImage: "url('/images/hero.jpg')",
@@ -44,18 +44,20 @@ export default function Hero() {
 
 
       <div
-        className="
-          relative
-          z-10
-          mx-auto
-          flex
-          w-full
-          max-w-7xl
-          items-center
-          px-5
-          lg:min-h-screen
-          lg:px-8
-        "
+       className="
+  relative
+  z-10
+  mx-auto
+  flex
+  w-full
+  max-w-7xl
+  flex-col
+  px-5
+  lg:min-h-screen
+  lg:flex-row
+  lg:items-center
+  lg:px-8
+" "
       >
 
         <div className="max-w-3xl">
@@ -148,18 +150,17 @@ lg:text-lg
 
 
         <div
-          className="
-            absolute
-            bottom-0
-            left-1/2
-            w-full
-            max-w-6xl
-            -translate-x-1/2
-            translate-y-[35%]
-lg:translate-y-1/2
-            px-5
-            lg:px-6
-          "
+        className="
+  mt-10
+  w-full
+  lg:absolute
+  lg:bottom-0
+  lg:left-1/2
+  lg:max-w-6xl
+  lg:-translate-x-1/2
+  lg:translate-y-1/2
+  lg:px-6
+"
         >
 
           <div
