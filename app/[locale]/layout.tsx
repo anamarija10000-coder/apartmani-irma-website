@@ -1,5 +1,6 @@
 import StructuredData from "@/components/seo/StructuredData";
 import WhatsAppButton from "@/components/common/WhatsAppButton";
+import CookieBanner from "@/components/cookie/CookieBanner";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ReactNode } from "react";
@@ -228,17 +229,17 @@ export default async function LocaleLayout({
 return (
 
   <NextIntlClientProvider
-    locale={locale}
-    messages={messages}
-  >
+  locale={locale}
+  messages={messages}
+>
+  <StructuredData locale={locale} />
 
-    <StructuredData locale={locale} />
+  {children}
 
-    {children}
+  <WhatsAppButton />
 
-    <WhatsAppButton />
-
-  </NextIntlClientProvider>
+  <CookieBanner />
+</NextIntlClientProvider>
 
 );
 

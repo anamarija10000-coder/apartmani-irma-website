@@ -164,7 +164,9 @@
     "apartments": "Apartments",
     "reservation": "Reservation",
 
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+"cookies": "Cookie Policy"
   },
 "bookingBenefits": {
   "label": "WHY BOOK DIRECT",
@@ -194,5 +196,12 @@
   "title": "View the apartment",
   "description": "Explore every corner of the apartment through our photo gallery.",
   "open": "OPEN GALLERY"
+},
+"cookies": {
+  "title": "🍪 Cookies",
+  "description": "We use cookies to improve your experience, analyze traffic and ensure the website works properly.",
+  "accept": "Accept",
+  "reject": "Decline",
+  "settings": "Cookie settings"
 }
 }

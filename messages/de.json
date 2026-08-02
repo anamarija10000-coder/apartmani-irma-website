@@ -164,7 +164,9 @@
   "home": "Startseite",
   "apartments": "Apartments",
   "reservation": "Reservierung",
-  "rights": "Alle Rechte vorbehalten."
+  "rights": "Alle Rechte vorbehalten.",
+  "privacy": "Datenschutzerklärung",
+"cookies": "Cookie-Richtlinie"
 },
 "bookingBenefits": {
   "label": "WARUM DIREKT BUCHEN",
@@ -194,5 +196,13 @@
   "title": "Apartment ansehen",
   "description": "Entdecken Sie jeden Winkel des Apartments durch unsere Fotogalerie.",
   "open": "GALERIE ÖFFNEN"
+},
+"cookies": {
+  "title": "🍪 Cookies",
+  "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Datenverkehr zu analysieren und das ordnungsgemäße Funktionieren der Website sicherzustellen.",
+  "accept": "Akzeptieren",
+  "reject": "Ablehnen",
+  "settings": "Cookie-Einstellungen"
+  
 }
 }

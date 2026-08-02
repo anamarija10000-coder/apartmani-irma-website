@@ -240,7 +240,19 @@ export default function Footer() {
               >
                 Instagram
               </a>
+<Link
+  href="/privacy-policy"
+  className="block transition hover:text-sky-300"
+>
+  {t("privacy")}
+</Link>
 
+<Link
+  href="/cookie-policy"
+  className="block transition hover:text-sky-300"
+>
+  {t("cookies")}
+</Link>
 
             </div>
 

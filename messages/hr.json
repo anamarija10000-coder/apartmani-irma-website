@@ -152,7 +152,9 @@
     "home": "Početna",
     "apartments": "Apartmani",
     "reservation": "Rezervacija",
-    "rights": "Sva prava pridržana."
+    "rights": "Sva prava pridržana.",
+    "privacy": "Politika privatnosti",
+"cookies": "Politika kolačića"
   },
 "bookingBenefits": {
   "label": "ZAŠTO REZERVIRATI DIREKTNO",
@@ -182,5 +184,12 @@
   "title": "Pogledajte apartman",
   "description": "Istražite svaki kutak apartmana kroz galeriju fotografija.",
   "open": "OTVORI GALERIJU"
+},
+"cookies": {
+  "title": "🍪 Kolačići",
+  "description": "Koristimo kolačiće kako bismo poboljšali vaše iskustvo, analizirali promet i omogućili ispravan rad web stranice.",
+  "accept": "Prihvati",
+  "reject": "Odbij",
+  "settings": "Postavke kolačića"
 }
 }
