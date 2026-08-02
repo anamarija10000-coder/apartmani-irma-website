@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
 import "./globals.css";
@@ -121,7 +122,19 @@ export default function RootLayout({
       <body className="min-h-screen font-sans antialiased">
 
         {children}
+<Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-JNFCJF2ZD6"
+  strategy="afterInteractive"
+/>
 
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNFCJF2ZD6');
+  `}
+</Script>
       </body>
 
     </html>
