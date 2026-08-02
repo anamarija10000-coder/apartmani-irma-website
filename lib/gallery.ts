@@ -16,8 +16,12 @@ export function getGallery(id: string) {
 
   const images = fs
     .readdirSync(folder)
-    .filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file))
-    .sort((a, b) => Number(a.split(".")[0]) - Number(b.split(".")[0]));
+    .filter((file) => file.endsWith(".webp"))
+    .sort(
+      (a, b) =>
+        Number(path.parse(a).name) -
+        Number(path.parse(b).name)
+    );
 
   return images.map(
     (image) => `/images/apartments/${id}/${image}`
